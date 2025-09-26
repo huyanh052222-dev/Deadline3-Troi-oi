@@ -59,7 +59,7 @@ header{
 .main2{
     display: flex;
     justify-content: center;
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 
 .tittlebox{
@@ -145,3 +145,4 @@ header{
     align-items: center;
 }
 }
+
