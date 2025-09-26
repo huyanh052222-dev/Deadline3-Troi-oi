@@ -1,0 +1,145 @@
+@media screen and (max-width: 992px) {
+
+.logo,.menu,.button{
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+.logo{
+    width: 140px;
+    height: 42px;
+    opacity: 1;
+    border-radius: 8px;
+}
+.menu{
+    width: 418px;
+    height: 30px;
+    opacity: 1;
+    border-radius: 8px;
+}
+.button{
+    width: 102px;
+    height: 36px;
+    opacity: 1;
+    border-radius: 8px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F1;
+    padding: 50px 0px;
+    height: 430px;
+}
+.content,.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.content{
+    width: 345px;
+    height: 267px;
+    opacity: 1;
+    border-radius: 8px;
+
+}
+.image{
+    width: 345px;
+    height: 310px;
+    opacity: 1;
+    border-radius: 8px;
+
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.tittlebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: 60px;
+    border-radius: 8px;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.boxes6{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 345px));
+    gap: 20px;
+}
+.box6{
+    height: 420px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main3{
+    height: 840px;
+    background-color: #F1F1F1;
+}
+.maintit{
+    display: flex;
+    justify-content: center;
+    padding: 40px 15px;
+}
+.containerbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.mainbox2{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 220px));
+    gap: 35px;
+    padding: 0 15px;
+    
+}
+.box5{
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main4{
+    background-color: #FFFFFF;
+    height: 800px;
+}
+.mantit2{
+    display: flex;
+    justify-content: center;
+    padding: 30px 15px;
+}
+.containerbox2{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.mainbox3{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, 345px));
+    gap: 25px;
+    padding: 10px 10px;
+    
+}
+.box4{
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
