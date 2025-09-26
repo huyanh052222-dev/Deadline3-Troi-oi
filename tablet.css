@@ -1,11 +1,16 @@
 @media screen and (max-width: 992px) {
 
+header{
+    padding: 0 0;
+}
+
 .logo,.menu,.button{
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 15px;
+    
 
 }
 .logo{
@@ -31,14 +36,14 @@
     justify-content: center;
     align-items: center;
     background-color: #F1F1F1;
-    padding: 50px 0px;
+    padding: 10px 0px;
     height: 430px;
 }
 .content,.image{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 15px;
 }
 .content{
     width: 345px;
@@ -57,7 +62,7 @@
 .main2{
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 10px 15px;
 }
 
 .tittlebox{
@@ -71,12 +76,12 @@
 .mainbox{
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    padding: 10px 0;
 }
 .boxes6{
     display: grid;
     grid-template-columns: repeat(2, minmax(100px, 345px));
-    gap: 20px;
+    gap: 30px;
 }
 .box6{
     height: 420px;
