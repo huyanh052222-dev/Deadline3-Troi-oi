@@ -16,19 +16,16 @@ header{
 .logo{
     width: 140px;
     height: 42px;
-    opacity: 1;
     border-radius: 8px;
 }
 .menu{
     width: 418px;
     height: 30px;
-    opacity: 1;
     border-radius: 8px;
 }
 .button{
     width: 102px;
     height: 36px;
-    opacity: 1;
     border-radius: 8px;
 }
 .main1{
