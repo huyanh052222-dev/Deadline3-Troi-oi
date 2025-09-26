@@ -1,16 +1,16 @@
 @media screen and (max-width: 576px) {
 header{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    position: relative;
+    padding: 15px;
 }
 .logo{
     width: 140px;
     height: 42px;
     border-radius: 8px;
-    order: 0;
+    order: 1;
 }
 .logo,.menu,.button{
     margin: 0;
@@ -20,15 +20,15 @@ header{
     width: 66px;
     height: 36px;
     border-radius: 8px;
-    position: absolute;
     left: 15px;
+    order: 0;
 }
 .button{
     width: 78px;
     height: 36px;
     border-radius: 8px;
-    position: absolute;
     right: 15px;
+    order: 2;
 }
 .main1{
     display: flex;
@@ -37,6 +37,7 @@ header{
     background-color: #F1F1F1;
     padding: 0 0px;
     height: 878px;
+    margin: 0;
 }
 .content,.image{
     display: flex;
@@ -61,7 +62,7 @@ header{
 .main2{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 }
 
 .tittlebox{
@@ -78,7 +79,7 @@ header{
     grid-template-columns: repeat(1, minmax(100px, 524.4px));
     align-items: center;
     gap: 30px;
-    padding: 0 10px;
+    padding: 0 15px;
     
 }
 .box6{
@@ -99,14 +100,14 @@ header{
 .maintit{
     display: flex;
     justify-content: center;
-    padding: 40px 10px;
+    padding: 40px 15px;
 }
 
 .mainbox2{
     display: grid;
     grid-template-columns: repeat(2, minmax(100px, 258px));
     gap: 30px;
-    padding: 0px 10px;
+    padding: 0px 15px;
     
 }
 .box5{
@@ -124,7 +125,7 @@ header{
 .mantit2{
     display: flex;
     justify-content: center;
-    padding: 20px 10px;
+    padding: 20px 15px;
 }
 .containerbox2{
     display: flex;
@@ -135,7 +136,7 @@ header{
     display: grid;
     grid-template-columns: repeat(2, minmax(50px, 258px));
     gap: 25px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     
 }
 .box4{
