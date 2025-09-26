@@ -4,7 +4,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
 }
 .logo{
     width: 140px;
@@ -13,7 +13,7 @@ header{
     order: 1;
 }
 .logo,.menu,.button{
-    margin: 0;
+    margin: 5px;
 
 }
 .menu{
