@@ -21,19 +21,16 @@ header{
 .logo{
     width: 200px;
     height: 60px;
-    opacity: 1;
     border-radius: 8px;
 }
 .menu{
     width: 820px;
     height: 34px;
-    opacity: 1;
     border-radius: 8px;
 }
 .button{
     width: 120px;
     height: 42px;
-    opacity: 1;
     border-radius: 8px;
 }
 
