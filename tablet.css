@@ -94,7 +94,7 @@ header{
 .maintit{
     display: flex;
     justify-content: center;
-    padding: 40px 15px;
+    padding: 40px 10px;
 }
 .containerbox{
     display: flex;
@@ -106,7 +106,7 @@ header{
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 220px));
     gap: 35px;
-    padding: 0 15px;
+    padding: 0 10px;
     
 }
 .box5{
@@ -123,7 +123,7 @@ header{
 .mantit2{
     display: flex;
     justify-content: center;
-    padding: 30px 15px;
+    padding: 30px 10px;
 }
 .containerbox2{
     display: flex;
@@ -145,4 +145,5 @@ header{
     align-items: center;
 }
 }
+
 
